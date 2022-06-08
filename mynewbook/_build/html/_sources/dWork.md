@@ -25,7 +25,17 @@
 |     Бүгд     |                                                                                                                                                                                             |    0   |  64  |  0  |
 |     Нийт     |                                                                                                                                                                                             |   64   |      |     |
 ## Do - хэрэгжүүлэлт
+### Ном сурах бичиг
+1. Suman Debnath, 270 MINI ELECTRONICS PROJECT WITH CIRCUIT DIAGRAM., 2012
+2. Brock Craft. “Arduino projects for dummies.” England.
+3. Mark Geddes. “Arduino Project Handbook: 25 Practical Projects to Get You.” 2016
+4. Neerpraj Rai. “Arduino Project for Engineers: A Multipurpose Book for all Engineering Branches”. 2018.
+5. Mark Geddes. "Arduino Project Handbook, Volume 2: 25 Simple Electronics Projects". 2021 он 
 
+### Лекцийн хичээл
+Peer instruction аргаар лекцийн хичээлийг явуулж байна.
+
+### Лабораторийн хичээл
 ```{figure} /dwork1.jpeg
 ---
 name: dwork1

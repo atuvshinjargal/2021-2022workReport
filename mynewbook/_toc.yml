@@ -3,13 +3,18 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: lessons
-  sections:
-    - file: elec2
-    - file: uProcessor
-    - file: dWork
-- file: erdem
+parts:
+  - caption: Заасан хичээлүүд
+    chapters:
+      - file: elec2
+      - file: uProcessor
+      - file: dWork
+  - caption: Эрдэм шинжилгээ болон бусад ажил
+    chapters:   
+      - file: erdem
+      - file: olympiad
+      - file: weldingVentil
+      - file: yourself
 #    - file: markdown-notebooks
   
 #  - caption: Name of Part 2

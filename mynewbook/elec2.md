@@ -30,7 +30,31 @@
 | XVI          | Аналог-тоон хувиргагчийн бүтэц, ажиллах зарчим, хэрэглээ                                                       | 2    |      |     |
 |              | Синхрон тоолуурын бүтэц, ажиллах зарчим, хэрэглээ                                                              |      |      | 4   |
 ## Do - хэрэгжүүлэлт
+### Ном сурах бичиг
+1. Бат-Отгон.Б, нар. “Электроникийн үндэс.” УБ., 2012
+2. Paul Horowitz, Winfield Hill. “The Art of Electronics.” Cambridg University press.
+3. Э.Дамдинсүрэн нар. “Электроникийн үндэс. Лабораторын хичээлийн гарын авлага.” 2002,... 2006
+4. Floyd, Thomas L. “Electronic devices : conventional current version”.— 9th ed.
+5. Ревич Ю.В. Занимательная электроника. 2009 он 
 
+### Лекцийн хичээл
+Peer instruction аргаар лекцийн хичээлийг явуулж байна.
+### Лабораторийн хичээл
+```{figure} /elec2breadB.jpeg
+---
+name: elec2breadB
+---
+Оюутнуудын хичээл дээр туршилт хийж буй байдал
+```
+
+```{figure} /elec2breadB2.jpeg
+---
+name: elec2breadB2
+---
+Оюутнуудын хичээл дээр туршилт хийж буй байдал
+```
+
+## Check - Шалгах
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -68,21 +92,6 @@ np.corrcoef(x, y)
 
     array([[1.        , 0.77627576],
            [0.77627576, 1.        ]])
-
-
-## Check - Шалгах
-```{figure} /elec2Correl.png
----
-name: elec2Correl
----
-70, 30 онооны хамаарал
-```
-```{figure} elec2Ndist.png
----
-name: elec2Ndist
----
-Авсан дүнгийн түгэлт
-```
 
 ## Act - сайжруулалт
 
