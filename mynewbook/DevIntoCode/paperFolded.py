@@ -9,10 +9,8 @@ start = time.time()
 THICKNESS = 0.00008
 folded_thickness = THICKNESS
 a = []  
-
-for x in range(43):
-    folded_thickness = THICKNESS * (2 ** x)
-    a.append(folded_thickness)
+folded_thickness = THICKNESS * (2 ** 43)
+a.append(folded_thickness)
 
 print(a)
 plt.title("thickness of folded paper")
