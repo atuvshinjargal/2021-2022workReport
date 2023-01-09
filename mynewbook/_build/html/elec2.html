@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Электроник, микроэлектроник II &#8212; 2021-2022 оны хичээлийн жилийн хаврын улирлын тайлан</title>
+    <title>Тоон электроник &#8212; 2021-2022 оны хичээлийн жилийн хаврын улирлын тайлан</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -21,7 +21,7 @@
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -37,7 +37,7 @@
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
@@ -52,7 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Микропроцессорын систем" href="uProcessor.html" />
+    <link rel="next" title="Микропроцессорын техник" href="uProcessor.html" />
     <link rel="prev" title="2021-2022 оны хичээлийн жилийн хаврын улирлын ажлын тайлан" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -121,17 +121,22 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Электроник, микроэлектроник II
+   Тоон электроник
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="uProcessor.html">
-   Микропроцессорын систем
+   Микропроцессорын техник
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="dWork.html">
-   Зохион бүтээх ажил
+   Программчлагдах логик контроллёр
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="elec1.html">
+   Электроник, микроэлектроник I
   </a>
  </li>
 </ul>
@@ -349,17 +354,17 @@ title="Print to PDF"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
+    <a class="reference internal nav-link" href="#id2">
      Ном сурах бичиг
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
+    <a class="reference internal nav-link" href="#id3">
      Лекцийн хичээл
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id3">
+    <a class="reference internal nav-link" href="#id4">
      Лабораторийн хичээл
     </a>
    </li>
@@ -384,7 +389,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Электроник, микроэлектроник II</h1>
+                <h1>Тоон электроник</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -405,17 +410,17 @@ title="Print to PDF"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
+    <a class="reference internal nav-link" href="#id2">
      Ном сурах бичиг
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
+    <a class="reference internal nav-link" href="#id3">
      Лекцийн хичээл
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id3">
+    <a class="reference internal nav-link" href="#id4">
      Лабораторийн хичээл
     </a>
    </li>
@@ -441,8 +446,8 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="ii">
-<h1>Электроник, микроэлектроник II<a class="headerlink" href="#ii" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>Тоон электроник<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h1>
 <p>“Электроник, микроэлектроник - 2” хичээл нь “Цахилгаан системийн автоматжуулалт” хөтөлбөрийн бакалаврын сургалтын төлөвлөгөөнд тусгагдсан мэргэшүүлэх хичээл бөгөөд энэхүү хичээлд Энэ хичээлээр тоон электроникийн үндэс, булийн алгебрийн хуулиуд, тоон электроник схем, түүний хэрэглээ загварчлал. Тоон техникийн үндэс, интеграл схемийн ажиллах зарчим, тоон электроникийн үндсэн зарчмыг цаашид бие даан гүнзгийрүүлж судлаж эзэмших, тоон интеграл схемийг ашиглан хялбар багаж хэрэгсэл зохион бүтээх туших засварлах чадвар эзэмшүүлнэ.</p>
 <section id="plan">
 <h2>Plan - Төлөвлөлт<a class="headerlink" href="#plan" title="Permalink to this headline">#</a></h2>
@@ -605,8 +610,8 @@ title="Print to PDF"
 </section>
 <section id="do">
 <h2>Do - хэрэгжүүлэлт<a class="headerlink" href="#do" title="Permalink to this headline">#</a></h2>
-<section id="id1">
-<h3>Ном сурах бичиг<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<section id="id2">
+<h3>Ном сурах бичиг<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
 <ol class="simple">
 <li><p>Бат-Отгон.Б, нар. “Электроникийн үндэс.” УБ., 2012</p></li>
 <li><p>Paul Horowitz, Winfield Hill. “The Art of Electronics.” Cambridg University press.</p></li>
@@ -615,12 +620,12 @@ title="Print to PDF"
 <li><p>Ревич Ю.В. Занимательная электроника. 2009 он</p></li>
 </ol>
 </section>
-<section id="id2">
-<h3>Лекцийн хичээл<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
+<section id="id3">
+<h3>Лекцийн хичээл<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
 <p>Peer instruction аргаар лекцийн хичээлийг явуулж байна.</p>
 </section>
-<section id="id3">
-<h3>Лабораторийн хичээл<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
+<section id="id4">
+<h3>Лабораторийн хичээл<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h3>
 <figure class="align-default" id="elec2breadb">
 <img alt="_images/elec2breadB.jpeg" src="_images/elec2breadB.jpeg" />
 <figcaption>
@@ -718,7 +723,7 @@ title="Print to PDF"
     <a class='right-next' id="next-link" href="uProcessor.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Микропроцессорын систем</p>
+        <p class="prev-next-title">Микропроцессорын техник</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
