@@ -9,6 +9,8 @@ parts:
       - file: elec2
       - file: uProcessor
       - file: dWork
+      - file: elec1
+      - file: introE
   - caption: Эрдэм шинжилгээ болон бусад ажил
     chapters:   
       - file: erdem
